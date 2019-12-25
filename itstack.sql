@@ -1,0 +1,11 @@
+DROP TABLE school;
+CREATE TABLE school ( id bigint NOT NULL AUTO_INCREMENT, name varchar(64), address varchar(256), createTime datetime, updateTime datetime, PRIMARY KEY (id) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+insert into school (id, name, address, createTime, updateTime) values (1, '北京大学', '北京市海淀区颐和园路5号', '2019-10-18 13:35:57', '2019-10-18 13:35:57');
+insert into school (id, name, address, createTime, updateTime) values (2, '南开大学', '中国天津市南开区卫津路94号', '2019-10-18 13:35:57', '2019-10-18 13:35:57');
+insert into school (id, name, address, createTime, updateTime) values (3, '同济大学', '上海市彰武路1号同济大厦A楼7楼7区', '2019-10-18 13:35:57', '2019-10-18 13:35:57');
+DROP TABLE user;
+CREATE TABLE user ( id bigint NOT NULL AUTO_INCREMENT, name varchar(64), age int(4), createTime datetime NOT NULL, updateTime datetime NOT NULL, PRIMARY KEY (id) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+insert into user (id, name, age, createTime, updateTime) values (1, '花花', 18, '2019-10-18 13:35:57', '2019-10-18 13:35:57');
+insert into user (id, name, age, createTime, updateTime) values (2, '明明', 19, '2019-10-18 13:35:57', '2019-10-18 13:35:57');
+insert into user (id, name, age, createTime, updateTime) values (3, '球球', 17, '2019-10-18 13:35:57', '2019-10-18 13:35:57');
+insert into user (id, name, age, createTime, updateTime) values (4, '东东', 20, '2019-10-18 13:35:57', '2019-10-18 13:35:57');
