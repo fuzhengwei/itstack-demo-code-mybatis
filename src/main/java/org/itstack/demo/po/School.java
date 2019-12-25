@@ -2,9 +2,6 @@ package org.itstack.demo.po;
 
 import java.util.Date;
 
-/**
- * create by fuzhengwei3 on 2019/12/19
- */
 public class School {
 
     private Long id;
